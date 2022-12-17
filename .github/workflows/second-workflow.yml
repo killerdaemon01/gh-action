@@ -1,0 +1,11 @@
+name: Second Workflow
+on: workflow_dispatch
+jobs:
+  second-flow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Two lines
+        run: |
+          echo "first output"
+          echo "second output"
+  
